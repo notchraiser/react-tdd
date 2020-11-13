@@ -3,7 +3,7 @@ import "./styles.scss";
 
 function Nav() {
   return (
-    <>
+    <div data-test="navcomponent">
     <nav className="wrapper">
       <ul>
         <li><a href="#">Home</a></li>
@@ -14,11 +14,11 @@ function Nav() {
         <li><a href="#">Contact</a></li>
       </ul>
       <ul className="social">
-        <li><a href="#" class="fb">Facebook</a></li>
-        <li><a href="#" class="tw">Twitter</a></li>
+        <li><a href="#" className="fb" data-test="fb">Facebook</a></li>
+        <li><a href="#" className="tw" data-test="tw">Twitter</a></li>
       </ul>
     </nav>
-    </>
+    </div>
   );
 }
 

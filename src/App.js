@@ -1,4 +1,4 @@
-import Nav from './component/header/Nav';
+import Nav from './component/nav/Nav';
 import './App.scss';
 
 function App() {
