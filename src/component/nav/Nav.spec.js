@@ -19,10 +19,11 @@ describe('Nav Component', () => {
         const navcomponent = FindByTestAttr(component,'navcomponent');
         expect(navcomponent.length).toBe(1);
     });
+
     it('Should render fb logo' , () => {
         // const component = setUp();
         // console.log(component.debug())
         const fblogo = FindByTestAttr(component,'fb');
         expect(fblogo.length).toBe(1);
-    })    
+    });    
 })
